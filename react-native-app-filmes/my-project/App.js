@@ -10,9 +10,10 @@ import { db_films } from './database.js';
 export default function App(){
   return (
     <View style={styles.container}>
+
       <Header/>
       <Banner/>
-      <View style = {{width: '90%'}}>
+      <View style={styles.sla}>
 
         <FlatList 
           data={db_films}

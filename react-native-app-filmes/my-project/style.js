@@ -42,9 +42,9 @@ const styles = StyleSheet.create({
     },
 
     bannerContainer:{
-    flex:1,
+    width: '100%',
+    height: 200,
     alignItems:'center',
-    width:'100%',
     padding:10,
   },
 
@@ -57,7 +57,8 @@ const styles = StyleSheet.create({
     images:{
       width:'100%',
       height:170,
-      borderRadius: 4
+      borderRadius: 4,
+      backgroundColor: 'white',
     },
 
     titulo:{
@@ -72,11 +73,19 @@ const styles = StyleSheet.create({
     },
     containerJogos: {
       marginBottom: 20,
+      marginRight: 15,
       backgroundColor: '#1E1E1E',
       borderRadius: 10,
+      width: 150,
       padding: 10,
       alignItems: 'center',
     },
+
+    sla: {
+      width: '90%',
+      padding: 10,
+      
+    }
   });
 
 export default styles;
